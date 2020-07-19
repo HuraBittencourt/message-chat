@@ -7,6 +7,16 @@ require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
+require("semantic-ui-sass")
+//= require semantic-ui
+//= require jquery
+
+//= require jquery_ujs
+// require turbolinks
+
+$(document).on('turbolinks:load', function() {
+    $('.ui.dropdown').dropdown();
+})
 
 
 // Uncomment to copy all static images under ../images to the output folder and reference

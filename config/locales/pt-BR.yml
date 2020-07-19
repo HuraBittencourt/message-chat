@@ -1,0 +1,4 @@
+pt-BR:
+  hello: "Ola Mundo :)"
+  route: "Voce esta na rota raiz"
+  login: "Mandou bem, está na rota de login"
