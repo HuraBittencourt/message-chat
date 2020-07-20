@@ -33,3 +33,20 @@ en:
   hello: "Hello world!!"
   route: "You have reached the root route"
   login: "You have, reached the login page"
+  chatroom:
+    header: "Say somenthing"
+    input: 
+      placeholder: "Add Reply"
+  login:
+    welcome: "Welcome to Message Me"
+    title:
+      username: "Username"
+      password: "Password"
+    button:
+      login: "Login"
+      signup: Sign Up"
+    error: "You must be logged in to perform that action"
+    create:
+      success: "You have successfully logged in"
+      error: "There was something wrong with your login information"
+    destroy: "You have successfully logged out"

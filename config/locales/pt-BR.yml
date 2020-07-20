@@ -2,3 +2,20 @@ pt-BR:
   hello: "Ola Mundo :)"
   route: "Voce esta na rota raiz"
   login: "Mandou bem, está na rota de login"
+  chatroom:
+    header: "Diga alguma coisa"
+    input:
+      placeholder: "Resposta"
+  login:
+    welcome: "Bem Vindo ao Message Me"
+    title:
+      username: "Username"
+      password: "Password"
+    button:
+      login: "Login"
+      signup: Sign Up"
+    error: "Você deve estar logado para realizar essa ação"
+    create:
+      success: "Sucesso ao fazer login"
+      error: "Algo com suas informações de login"
+    destroy: "Sucesso ao fazer log out"

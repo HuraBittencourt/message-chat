@@ -14,8 +14,30 @@ require("semantic-ui-sass")
 //= require jquery_ujs
 // require turbolinks
 
+scroll_bottom = function() {
+    let messageComponent = $('#messages')
+    if (messageComponent.length > 0) {
+        messageComponent.scrollTop(messageComponent[0].scrollHeight)
+    }
+}
+
+submit_message = function() {
+    let messageBody = $('#message_body');
+    messageBody.on('keydown', function(event) {
+        if (event.keyCode == 13) {
+            $('button').click();
+            event.target.value = "";
+        }
+    });
+}
+
 $(document).on('turbolinks:load', function() {
     $('.ui.dropdown').dropdown();
+    $('.message .close').on('click', function() {
+        $(this).closest('.message').transition('fade');
+    });
+    scroll_bottom();
+    submit_message();
 })
 
 
